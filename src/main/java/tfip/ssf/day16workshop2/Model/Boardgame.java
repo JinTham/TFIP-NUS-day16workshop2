@@ -5,7 +5,7 @@ import java.io.Serializable;
 import org.springframework.data.redis.core.RedisHash;
 
 @RedisHash("boardgame")
-public class Boardgame implements Serializable{
+public class Boardgame {
     
     private Integer id;
 
